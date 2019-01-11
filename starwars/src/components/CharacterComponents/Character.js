@@ -1,13 +1,16 @@
 import React from 'react';
 
 import CharacterAbout from './CharacterAbout';
+import CharacterImg from './CharacterImg';
 
 function Character(props) {
   return (
     <div className="character">
       <CharacterAbout 
-        key = {props.characterData.name}
         characterData = {props.characterData}
+      />
+      <CharacterImg 
+        name = {props.characterData.name}
       />
     </div>
   );

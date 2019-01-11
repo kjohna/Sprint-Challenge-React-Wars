@@ -1,3 +1,18 @@
 .character-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.character {
+  display: flex;
+  
+  width: 500px;
+}
+
+.character-about h1 {
   color: yellow;
+}
+
+.character-img img {
+  max-width: 200px;
 }

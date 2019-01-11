@@ -1,7 +1,7 @@
 import React from 'react';
 import './Character.css';
 
-import Character from './CharacterAbout';
+import Character from './Character';
 
 function CharacterList(props) {
   const characters = props.starwarsChars.map(characterData => {
