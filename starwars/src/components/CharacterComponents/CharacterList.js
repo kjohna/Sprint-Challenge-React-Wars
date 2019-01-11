@@ -5,6 +5,7 @@ import Character from './Character';
 
 function CharacterList(props) {
   const characters = props.starwarsChars.map(characterData => {
+    console.log(characterData.name);
     return (
       <Character
         key = {characterData.name}

@@ -1,0 +1,6 @@
+.next-prev {
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}

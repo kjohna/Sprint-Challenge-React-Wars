@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './PrevNext.css';
+
 function PrevNext(props) {
   let buttons = [];
   if (props.previous) {
@@ -22,7 +24,7 @@ function PrevNext(props) {
         Next
       </button>);
   }
-  
+
   return (
     <form className="next-prev">
       {buttons}
