@@ -25,7 +25,7 @@ const charImgs = {
 }
 
 function CharacterImg(props) {
-  console.log(props.name);
+  // console.log(props.name);
   return (
     <div className="character-img">
       <img src={charImgs[props.name]} alt=""/>
